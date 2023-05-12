@@ -1,0 +1,60 @@
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav{
+
+}
+/* .navvertical{
+    float: right;
+    
+}
+.navvertical::after{
+    clear: both;
+} */
+.navul{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    
+}
+
+
+
+
+.navul li{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100px;
+height: 60px;
+text-align: center;
+
+list-style-type: none;
+background-color: bisque;
+color: #1155ff;
+
+transition: 0.2s;
+}
+.navul li:hover{
+    background-color: #1155ff;
+    color: bisque;
+}
+.navul li:hover a{
+    color: bisque;
+}
+
+.ulvertical {
+    display: flex;
+    flex-direction: column;
+}
+.ulvertical li{
+    width: 300px;
+    height: 50px;
+}
+
+a{
+    text-decoration: none;
+}
